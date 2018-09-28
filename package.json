@@ -1,0 +1,39 @@
+{
+  "name": "uppy-activestorage-upload",
+  "description": "Rails ActiveStorage DirectUpload engine for Uppy",
+  "version": "0.1.0",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "jsnext:main": "src/index.js",
+  "types": "types/index.d.ts",
+  "keywords": [
+    "file uploader",
+    "xhr",
+    "xhr upload",
+    "XMLHttpRequest",
+    "ajax",
+    "fetch",
+    "uppy",
+    "uppy-plugin"
+  ],
+  "homepage": "https://github.com/Sology/uppy-activestorage-upload",
+  "bugs": {
+    "url": "https://github.com/Sology/uppy-activestorage-upload/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sology/uppy-activestorage-upload.git"
+  },
+  "dependencies": {
+    "@uppy/companion-client": "0.27.2",
+    "@uppy/utils": "0.27.1",
+    "cuid": "^2.1.1",
+    "activestorage": "5.2.1"
+  },
+  "devDependencies": {
+    "@uppy/core": "0.27.2"
+  },
+  "peerDependencies": {
+    "@uppy/core": "^0.27.0"
+  }
+}

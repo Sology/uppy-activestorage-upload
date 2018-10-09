@@ -17,6 +17,7 @@
     "uppy-plugin"
   ],
   "homepage": "https://github.com/Sology/uppy-activestorage-upload",
+  "author": "Łukasz Jachymczyk <lukasz@sology.eu>",
   "bugs": {
     "url": "https://github.com/Sology/uppy-activestorage-upload/issues"
   },

@@ -12,7 +12,7 @@ const ActiveStorageUpload = require('uppy-activestorage-upload')
 
 const uppy = Uppy()
 uppy.use(ActiveStorageUpload, {
-  // Options
+  directUploadUrl: ... // Rails' active storage direct upload path obtained i.e. via `Rails.app.routes.url_helpers.rails_direct_uploads_path`
 })
 ```
 
